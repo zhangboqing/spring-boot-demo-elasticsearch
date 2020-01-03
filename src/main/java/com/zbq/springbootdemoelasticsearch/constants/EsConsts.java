@@ -6,9 +6,8 @@ package com.zbq.springbootdemoelasticsearch.constants;
  */
 public interface EsConsts {
 
-
     /**
-     * 类型名称
+     * 所以index都使用该类型名称
      */
     String DEFAULT_TYPE_NAME = "_doc";
 
@@ -16,6 +15,5 @@ public interface EsConsts {
      * 索引名称
      */
     String INDEX_NAME_MERCURY = "goods";
-
 
 }

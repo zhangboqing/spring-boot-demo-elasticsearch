@@ -1,5 +1,7 @@
 spring:
-  data:
-    elasticsearch:
-      cluster-name: elasticsearch
-      cluster-nodes: localhost:9300
+  elasticsearch:
+    rest:
+      uris:
+        - http://localhost:9200
+      username: elastic
+      password: 123456
